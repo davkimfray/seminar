@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@media (min-width: 768px) {
+  .view {
+    overflow: visible;
+    margin-top: -50px;
+
+  }
+}
+.navbar {
+  z-index: 10;
+  font-family: "Lobster";
+}
+.navbar {
+  background-color: transparent;
+}
+.top-nav-collapse {
+  background-color: rgba(98, 122, 138, 0.9);
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgba(98, 122, 138, 0.9);
+  }
+  .carousel-caption {
+    margin-top: 30%;
+  }
+}
+
+.home-jumbotron {
+  border-radius: 20px;
+}

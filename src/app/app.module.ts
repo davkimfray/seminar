@@ -12,7 +12,6 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './footer/footer.component';
-import { MakeOrderComponent } from './make-order/make-order.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { MakeOrderComponent } from './make-order/make-order.component';
     ContactsComponent,
     NavbarComponent,
     FooterComponent,
-    MakeOrderComponent
   ],
   imports: [
     BrowserModule,
